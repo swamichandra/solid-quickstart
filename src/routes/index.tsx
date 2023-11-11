@@ -13,10 +13,8 @@ export default function Home() {
 
       
       <div class="container">
-      	<div class="search-box">
-      		<input class="searchInput" type="text" placeholder="Discover client insights" id="searchWidgetTrigger" />
-      		<span></span>
-      	</div>
+        <input class="searchInput" type="text" placeholder="Discover client insights" id="searchWidgetTrigger" />
+        <div class="search"></div>
       </div>
 
       
