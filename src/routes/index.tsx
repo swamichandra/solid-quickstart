@@ -13,7 +13,7 @@ export default function Home() {
 
       
       <div class="search-box">
-        <button class="btn-search"><i class="fas fa-search"></i></button>
+        <button class="btn-search">👁️‍🗨️</button>
         <input type="text" class="input-search"  placeholder="Discover insights about your clients" id="searchWidgetTrigger" />
      </div>
 
