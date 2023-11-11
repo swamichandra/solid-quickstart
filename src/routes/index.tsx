@@ -14,7 +14,7 @@ export default function Home() {
       
       <div class="flexbox">
         <div class="search">
-           <input placeholder="Search here" id="searchWidgetTrigger" />
+           <input type="text" placeholder="How can I help you with your client questions?" id="searchWidgetTrigger" />
           </div>
         </div>
 
