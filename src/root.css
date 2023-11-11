@@ -15,7 +15,7 @@ body {
 }
 
 .searchBox:hover > .searchInput {
-    width: 440px;
+    width: 640px;
     padding: 0 6px;
 }
 
