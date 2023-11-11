@@ -2,7 +2,8 @@ import { Title } from "solid-start";
 
 export default function Home() {
   return (
-
+  <main>
+      <Title>Student of the Client</Title>
 
      <gen-search-widget
             configId="23df4038-8851-4b5e-84ef-86eae2f5ecc4"
@@ -36,6 +37,7 @@ export default function Home() {
     	C4.622,10.623,2.833,8.831,2.845,6.631L2.845,6.631z" />
       </symbol>
     </svg>  
+    </main>
     
   );
 }
