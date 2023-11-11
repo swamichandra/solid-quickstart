@@ -23,6 +23,10 @@ export default function Root() {
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
         
         <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
+        <gen-search-widget
+            configId="23df4038-8851-4b5e-84ef-86eae2f5ecc4"
+            triggerId="searchWidgetTrigger">
+        </gen-search-widget>
         
       </Head>
       <Body>
