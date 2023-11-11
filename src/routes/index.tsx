@@ -12,7 +12,15 @@ export default function Home() {
             triggerId="searchWidgetTrigger">
       </gen-search-widget>
       
-      
+      <form>
+        <input type="text" placeholder="Search here" id="searchWidgetTrigger" />
+            <button type="button">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+     </form>
+
+
+        
       <div class="search_box">
          <div class="search">
            <div class= "select_area">
