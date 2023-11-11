@@ -11,8 +11,6 @@ body {
     height: 40px;
     border-radius: 40px;
     padding: 10px;
-    width: 100%;
-
 }
 
 .searchBox:hover > .searchInput {
@@ -50,7 +48,7 @@ body {
     font-size: 16px;
     transition: 0.4s;
     line-height: 40px;
-    width: 0px;
+    width: 100px;
 
 }
 
