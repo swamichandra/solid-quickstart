@@ -11,11 +11,16 @@ export default function Home() {
             triggerId="searchWidgetTrigger">
       </gen-search-widget>
 
-      
-      <div class="container">
-        <input class="searchInput" type="text" placeholder="Discover client insights" id="searchWidgetTrigger" />
-        <div class="search"></div>
-      </div>
+
+      <div class="flexbox">
+        <div class="search">
+          <h1>Studenf of the Client</h1>
+          <h3>Click on search icon, to discover client insights.</h3>
+          <div>
+            <input type="text" class="searchInput" placeholder="Discover client insights" id="searchWidgetTrigger" />
+          </div>
+        </div>
+     </div>
 
       
     </main>
