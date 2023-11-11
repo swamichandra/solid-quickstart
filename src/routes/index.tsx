@@ -12,13 +12,11 @@ export default function Home() {
       </gen-search-widget>
 
       
-      <div class="searchBox">
-            <input class="searchInput" type="text" placeholder="Discover insights about your clients here" id="searchWidgetTrigger" />
-            <button class="searchButton" href="#">
-                <i class="material-icons">
-                    ASK
-                </i>
-            </button>
+      <div class="container">
+      	<div class="search-box">
+      		<input class="searchInput" type="text" placeholder="Discover client insights" id="searchWidgetTrigger" />
+      		<span></span>
+      	</div>
       </div>
 
       
