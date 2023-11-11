@@ -1,5 +1,4 @@
 import { Title } from "solid-start";
-import Counter from "~/components/Counter";
 
 export default function Home() {
   return (
@@ -12,8 +11,12 @@ export default function Home() {
             configId="23df4038-8851-4b5e-84ef-86eae2f5ecc4"
             triggerId="searchWidgetTrigger">
       </gen-search-widget>
-
-     <input class="search" placeholder="Search here" id="searchWidgetTrigger" />
+      
+      <div class="flexbox">
+        <div class="search">
+           <input placeholder="Search here" id="searchWidgetTrigger" />
+          </div>
+        </div>
 
     </main>
   );
