@@ -13,7 +13,7 @@ export default function Home() {
             triggerId="searchWidgetTrigger">
       </gen-search-widget>
 
-     <input placeholder="Search here" id="searchWidgetTrigger" />
+     <input class="search" placeholder="Search here" id="searchWidgetTrigger" />
 
     </main>
   );
