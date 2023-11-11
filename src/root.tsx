@@ -24,20 +24,11 @@ export default function Root() {
         
         <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
         
-        
-        <gen-search-widget
-          configId="23df4038-8851-4b5e-84ef-86eae2f5ecc4"
-          triggerId="searchWidgetTrigger">
-        </gen-search-widget>
-        
-        
-        <input placeholder="Search here" id="searchWidgetTrigger" />
       </Head>
       <Body>
         <Suspense>
           <ErrorBoundary>
-            <A href="/">Index</A>
-            <A href="/about">About</A>
+
             <Routes>
               <FileRoutes />
             </Routes>
