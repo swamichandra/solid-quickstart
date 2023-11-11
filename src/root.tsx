@@ -30,6 +30,7 @@ export default function Root() {
         
       </Head>
       <Body>
+        <input placeholder="Search here" id="searchWidgetTrigger" />
         <Suspense>
           <ErrorBoundary>
 
