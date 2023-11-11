@@ -3,7 +3,7 @@ import { Title } from "solid-start";
 export default function Home() {
   return (    
     <main>
-    	<h1>Studenf of the Client</h1>
+    	<h1>Student of the Client</h1>
       
       <gen-search-widget
             configId="23df4038-8851-4b5e-84ef-86eae2f5ecc4"
