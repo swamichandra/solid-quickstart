@@ -16,7 +16,7 @@ export default function Home() {
             <input class="searchInput" type="text" placeholder="Discover insights about your clients here" id="searchWidgetTrigger" />
             <button class="searchButton" href="#">
                 <i class="material-icons">
-                    Ask KPMG
+                    👁️‍🗨️
                 </i>
             </button>
       </div>
