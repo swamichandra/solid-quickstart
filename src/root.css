@@ -36,6 +36,7 @@ body {
     align-items: center;
     transition: 0.4s;
     font-weight: 900;
+    zoom: 150%;
 }
 
 .searchInput {
@@ -54,7 +55,7 @@ body {
 
 @media screen and (max-width: 620px) {
 .searchBox:hover > .searchInput {
-    width: 150px;
+    width: 190px;
     padding: 0 6px;
 }
 }
