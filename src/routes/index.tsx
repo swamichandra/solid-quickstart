@@ -5,8 +5,7 @@ export default function Home() {
   return (
     <main>
       <Title>Student of the Client</Title>
-      <h1>Student of the Client</h1>
-      <Counter />
+      <h3>Student of the Client</h3>
 
 <gen-search-widget
   configId="23df4038-8851-4b5e-84ef-86eae2f5ecc4"
