@@ -12,12 +12,23 @@ export default function Home() {
       </gen-search-widget>
       
       <form>
-        <input type="text" placeholder="Search here" id="searchWidgetTrigger" />
+       
             <button type="button">
                 <i class="fa fa-search" aria-hidden="true"></i>
             </button>
       </form>
-     
+
+      
+      <div class="searchBox">
+            <input class="searchInput" type="text" placeholder="Search here" id="searchWidgetTrigger" />
+            <button class="searchButton" href="#">
+                <i class="material-icons">
+                    search
+                </i>
+            </button>
+      </div>
+
+      
     </main>
   );
 }
