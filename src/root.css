@@ -1,60 +1,73 @@
 body {
-    background-image: linear-gradient(to right , #663399 , #400080);
+  background: #e03a29;
 }
 
-.searchBox {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:  translate(-50%,50%);
-    background: #2f3640;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
-
+body *, html * {
+  box-sizing: border-box;
 }
 
-.searchBox:hover > .searchInput {
-    width: 640px;
-    padding: 0 6px;
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
 }
 
-.searchBox:hover > .searchButton {
+.search-box input[type=text] {
+  border: none;
+  background: none;
+  z-index: 1;
+  width: 25px;
+  height: 25px;
+  transition: all 0.25s ease-in 0.25s;
+  color: transparent;
+  font-size: 0.75rem;
+  line-height: 25px;
+}
+.search-box input[type=text]:hover {
+  cursor: pointer;
+}
+.search-box input[type=text]:hover:focus {
+  cursor: text;
+}
+.search-box input[type=text]:hover + span {
+  background: rgba(255, 255, 255, 0.2);
+}
+.search-box input[type=text]:focus {
+  width: 200px;
+  padding: 0 10px;
+  outline: none;
+  color: black;
+  background: none;
+  color: white;
+}
+.search-box input[type=text]:focus + span {
+  width: 200px;
+}
+.search-box input[type=text]:focus + span::before {
+  width: 2px;
+  opacity: 0;
+  transition: all 0.25s ease-in;
+}
+.search-box input[type=text] + span {
+  z-index: -1;
+  position: absolute;
+  border: 2px solid white;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  transition: all 0.25s ease-in 0.25s;
+  border-radius: 25px;
+  left: 0;
+}
+.search-box input[type=text] + span::before {
+  transition: all 0.25s ease-in 0.5s;
+  transform-origin: left top;
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  border-radius: 5px;
   background: white;
-  color : #2f3640;
-}
-
-.searchButton {
-    color: white;
-    float: right;
-    width: 40px;
-    height: 40px;
-    border-radius: 30%;
-    background: #2f3640;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
-    font-weight: 900;
-}
-
-.searchInput {
-    border:none;
-    background: none;
-    outline:none;
-    float:left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;
-
-}
-
-@media screen and (max-width: 620px) {
-.searchBox:hover > .searchInput {
-    width: 150px;
-    padding: 0 6px;
-}
+  transform: rotate(45deg) translate(26px, -2px);
 }
