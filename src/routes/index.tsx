@@ -14,6 +14,14 @@ export default function Home() {
         </a>{" "}
         to learn how to build SolidStart apps.
       </p>
+
+
+<gen-search-widget
+  configId="23df4038-8851-4b5e-84ef-86eae2f5ecc4"
+  triggerId="searchWidgetTrigger">
+</gen-search-widget>
+
+<input placeholder="Search here" id="searchWidgetTrigger" />
     </main>
   );
 }
