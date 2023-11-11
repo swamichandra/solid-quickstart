@@ -12,12 +12,22 @@ export default function Home() {
             triggerId="searchWidgetTrigger">
       </gen-search-widget>
       
-      <div class="flexbox">
-        <div class="search">
-           <input type="text" placeholder="How can I help you with your client questions?" id="searchWidgetTrigger" />
-          </div>
-        </div>
-
+      
+      <div class="search_box">
+         <div class="search">
+           <div class= "select_area">
+             <i class="fas fa-map-marker-alt map_icon"></i>
+             <div class="text">Search</div>
+           </div>
+           
+           <div class="line"></div>
+           
+           <div class = "text_and-icon">
+             <input type="text" class="search_text" id="searchWidgetTrigger" placeholder="Search by Company, Keyword or the designation ..">
+                  <i class="fas fa-search search_icon"></i>
+           </div>
+      </div>  
+     
     </main>
   );
 }
