@@ -1,22 +1,27 @@
 import { Title } from "solid-start";
 
 export default function Home() {
-  return (    
+  return (
     <main>
-    	<h1>Student of the Client</h1>
+      <Title>Student of the Client</Title>
       
+
       <gen-search-widget
             configId="23df4038-8851-4b5e-84ef-86eae2f5ecc4"
             triggerId="searchWidgetTrigger">
       </gen-search-widget>
-    	
-      <form class="search-box">
-        <input type="text" placeholder=" "/>
-        <input type="text" class="SearchBox-input" placeholder="Discover client insights" id="searchWidgetTrigger" />
-        <button type="reset"></button>
-      </form>
-      
 
+      
+      <div class="searchBox">
+            <input class="searchInput" type="text" placeholder="Discover insights about your clients here" id="searchWidgetTrigger" />
+            <button class="searchButton" href="#">
+                <i class="material-icons">
+                    ASK
+                </i>
+            </button>
+      </div>
+
+      
     </main>
   );
 }
