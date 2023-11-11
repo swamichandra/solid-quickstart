@@ -29,12 +29,13 @@ body {
     float: right;
     width: 60px;
     height: 60px;
-    border-radius: 50%;
+    border-radius: 30%;
     background: #2f3640;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.4s;
+    font-weight: 900;
 }
 
 .searchInput {
