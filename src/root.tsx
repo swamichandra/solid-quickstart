@@ -24,10 +24,8 @@ export default function Root() {
         
         <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
 
-        
       </Head>
       <Body>
-        <input placeholder="Search here" id="searchWidgetTrigger" />
         <Suspense>
           <ErrorBoundary>
 
