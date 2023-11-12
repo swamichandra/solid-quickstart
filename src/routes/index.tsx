@@ -9,6 +9,11 @@ export default function Home() {
           <h1 class="header-1">Student of the Client</h1>
       </header>
 
+      <div class='top'></div>
+<div class='text'>
+  <h1>Student of the Client</h1>
+</div>
+
       <gen-search-widget
             configId="23df4038-8851-4b5e-84ef-86eae2f5ecc4"
             triggerId="searchWidgetTrigger">
