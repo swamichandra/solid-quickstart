@@ -11,7 +11,7 @@ export default function Home() {
 
       <div class='top'></div>
 <div class='text'>
-  <h1>Discover Client Insights</h1><div id="cursor"></div>
+  <h2>Discover Client Insights</h2><div id="cursor"></div>
 </div>
 
       <gen-search-widget
