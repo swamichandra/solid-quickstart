@@ -6,7 +6,7 @@ export default function Home() {
       <Title>Student of the Client</Title>
       
       <header>
-          <h1 class="header-1">Student of the Client</h1>
+          <h1 class="header-1">Discover Client Insights</h1>
       </header>
 
       <div class='top'></div>
