@@ -149,11 +149,18 @@ h1 {
 	text-transform: uppercase;
 }
 
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 1vw;
+  font-weight: 200;
+}
+
 .text {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 60vh;
 }
 
 /* blinking cursor */
