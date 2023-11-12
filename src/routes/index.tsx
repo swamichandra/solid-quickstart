@@ -11,14 +11,10 @@ export default function Home() {
             triggerId="searchWidgetTrigger">
       </gen-search-widget>
 
-     <center>
-     <form action="" class="search-bar">
-      <input class="searchInput" name="search" type="search" id="searchWidgetTrigger" pattern=".*\S.*" required/>
-      <button class="search-btn" type="submit">
-        <span>Search</span>
-      </button>
-    </form>
-    </center> 
+     <div class="container">
+      <input type="text" placeholder="Discover client insights" id="searchWidgetTrigger" />
+      <div class="search"></div>
+    </div>
     </main>
   );
 }
