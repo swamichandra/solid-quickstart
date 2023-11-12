@@ -39,7 +39,7 @@ body {
   left: 0;
   width: 80px;
   height: 80px;
-  background: purple;
+  background: #8A2BE2;
   border-radius: 50%;
   transition: all 1s;
   z-index: 4;
