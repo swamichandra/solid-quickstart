@@ -5,6 +5,9 @@ export default function Home() {
     <main>
       <Title>Student of the Client</Title>
       
+      <header>
+          <h1 class="header-3">Student of the Client</h1>
+      </header>
 
       <gen-search-widget
             configId="23df4038-8851-4b5e-84ef-86eae2f5ecc4"
