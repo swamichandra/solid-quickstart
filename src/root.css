@@ -35,10 +35,10 @@ body {
     align-items: center;
     transition: 0.4s;
     font-weight: 900;
-    zoom: 125%;
+    zoom: 150%;
 }
 
-. searchInput {
+.searchInput {
     border:none;
     background: none;
     outline:none;
