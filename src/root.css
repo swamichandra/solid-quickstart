@@ -11,7 +11,8 @@ html, body {
   margin: 0px;
   padding: 0px;
   font-family: "Asap", sans-serif;
-  background-color: #fdfdfe;
+  
+  background: linear-gradient(100deg, #402, #006);
   width: 100%;
   height: 100%;
 }
