@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Asap&family=Roboto:ital,wght@0,500;0,900;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
   margin: 0;
@@ -9,15 +9,16 @@
 html, body {
   margin: 0px;
   padding: 0px;
-  font-family: "Asap", sans-serif;
-  
-  background: linear-gradient(100deg, #402, #006);
-  width: 100%;
-  height: 100%;
+  font-family: 'Lato', sans-serif;
+  background-color: #301934;
 }
 
-body {
-  background: #252525;
+header h1 {
+  font-size: 70px;
+  font-weight: 600;
+  color: #fdfdfe;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
 }
 
 .container {
@@ -77,7 +78,7 @@ body {
   transition: all 0.5s;
 }
 .container input {
-  font-family: "Inconsolata", monospace;
+  font-family: 'Lato', sans-serif;	
   position: absolute;
   margin: auto;
   top: 0;
@@ -142,7 +143,7 @@ body {
 }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: white;
   font-size: 2vw;
   font-weight: 300;
@@ -150,7 +151,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: white;
   font-size: 1.5vw;
   font-weight: 200;
