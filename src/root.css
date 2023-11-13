@@ -14,7 +14,7 @@ html, body {
 }
 
 header h1 {
-  font-size: 35px;
+  font-size: 26px;
   font-weight: 400;
   color: #fdfdfe;
   text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
@@ -142,13 +142,6 @@ header h1 {
 	background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
 }
 
-h1 {
-  font-family: 'Lato', sans-serif;
-  color: white;
-  font-size: 2vw;
-  font-weight: 300;
-	text-transform: uppercase;
-}
 
 h2 {
   font-family: 'Lato', sans-serif;
@@ -167,7 +160,7 @@ h2 {
 /* blinking cursor */
 #cursor {
   background: lime;
-  line-height: 17px;
+  line-height: 12px;
   margin-left: 3px;
   -webkit-animation: blink 0.8s infinite;
   width: 2px;
