@@ -3,10 +3,10 @@ import { Title } from "solid-start";
 export default function Home() {
   return (
     <main>
-      <Title>Discover Client Insights <div id="cursor"></div></Title>
+      <Title>Discover Client Insights</Title>
       
       <header>
-          <h1 class="header-1">Discover Client Insights</h1>
+          <h1 class="header-1">Discover Client Insights </h1><div id="cursor"></div>
       </header>
 
       <div class='top'></div>
