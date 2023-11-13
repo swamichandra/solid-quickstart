@@ -10,8 +10,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   font-family: 'Lato', sans-serif;
-  background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
-	
+  background-color: #301934;
 }
 
 header h1 {
