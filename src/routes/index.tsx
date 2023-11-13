@@ -6,7 +6,7 @@ export default function Home() {
       <Title>Discover Client Insights</Title>
       
       <header>
-          <h1 class="header-1">Discover Client Insights</div></h1><div id="cursor">
+          <h1 class="header-1">Discover Client Insights</h1><div id="cursor"></div>
       </header>
 
       <div class='top'></div>
