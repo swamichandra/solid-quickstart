@@ -21,6 +21,9 @@ html, body {
   align-items: center;
 }
 
+h3 {
+  font-size: small;
+}
 .search {
   margin: 20px;
 }
