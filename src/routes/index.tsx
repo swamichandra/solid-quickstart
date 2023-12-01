@@ -10,6 +10,8 @@ export default function Home() {
             triggerId="searchWidgetTrigger">
       </gen-search-widget>
 
+<div class="wrapper">
+  <div class="container">
     <div class="flexbox">
       <div class="search">
         <h1>Discover Client Insights<span class="blinking-cursor"> |</span></h1>
@@ -19,7 +21,8 @@ export default function Home() {
         </div>
       </div>
     </div>
-      
+      </div>
+  </div>
     </main>
   );
 }
