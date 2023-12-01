@@ -21,21 +21,22 @@ html, body {
   align-items: center;
 }
 
-h3 {
-  font-size: 9px;
-  color: white;
-  margin-bottom: 15px;
-}
-
 .search {
   margin: 20px;
 }
 
 .search > h1 {
   color: white;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-shadow: 0 1px #0091c2;
   font-size: x-large
+}
+
+.search > h3 {
+  color: white;
+  margin-bottom: 10px;
+  text-shadow: 0 1px #0091c2;
+  font-size: small;
 }
 
 .search > div {
