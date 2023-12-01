@@ -1,163 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
 
 * {
-  margin: 0;
+  font-family: Roboto, sans-serif;
   padding: 0;
-  box-sizing: border-box;
+  margin: 0;
 }
 
 html, body {
-  margin: 0px;
-  padding: 0px;
-  font-family: 'Lato', sans-serif;
-  background-color: #301934;
+  width: 100%;
+  height: 100%;
 }
 
-header h1 {
-  font-size: 26px;
-  font-weight: 400;
-  color: #fdfdfe;
-  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
-    0px 0px 20px #b393d3;
-}
-
-.container {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 300px;
-  height: 100px;
-}
-.container .search {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 80px;
-  height: 80px;
-  background: #8A2BE2;
-  border-radius: 50%;
-  transition: all 1s;
-  z-index: 4;
-  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
-}
-.container .search:hover {
-  cursor: pointer;
-}
-.container .search::before {
-  content: "";
-  position: absolute;
-  margin: auto;
-  top: 22px;
-  right: 0;
-  bottom: 0;
-  left: 22px;
-  width: 12px;
-  height: 2px;
-  background: white;
-  transform: rotate(45deg);
-  transition: all 0.5s;
-}
-.container .search::after {
-  content: "";
-  position: absolute;
-  margin: auto;
-  top: -5px;
-  right: 0;
-  bottom: 0;
-  left: -5px;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  border: 2px solid white;
-  transition: all 0.5s;
-}
-.container input {
-  font-family: 'Lato', sans-serif;	
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 50px;
-  height: 50px;
-  outline: none;
-  border: none;
-  background: crimson;
-  color: white;
-  text-shadow: 0 0 10px crimson;
-  padding: 0 80px 0 20px;
-  border-radius: 30px;
-  box-shadow: 0 0 25px 0 crimson, 0 20px 25px 0 rgba(0, 0, 0, 0.2);
-  transition: all 1s;
-  opacity: 0;
-  z-index: 5;
-  font-weight: bolder;
-  letter-spacing: 0.1em;
-}
-.container input:hover {
-  cursor: pointer;
-}
-.container input:focus {
-  width: 300px;
-  opacity: 1;
-  cursor: text;
-}
-.container input:focus ~ .search {
-  right: -250px;
-  background: #151515;
-  z-index: 6;
-}
-.container input:focus ~ .search::before {
-  top: 0;
-  left: 0;
-  width: 25px;
-}
-.container input:focus ~ .search::after {
-  top: 0;
-  left: 0;
-  width: 25px;
-  height: 2px;
-  border: none;
-  background: white;
-  border-radius: 0%;
-  transform: rotate(-45deg);
-}
-.container input::placeholder {
-  color: white;
-  opacity: 0.5;
-  font-weight: bolder;
-}
-
-
-.top {
-	position: relative;
-	height: 10px;
-	background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
-}
-
-
-h2 {
-  font-family: 'Lato', sans-serif;
-  color: white;
-  font-size: 1.5vw;
-  font-weight: 200;
-}
-
-.text {
+.flexbox {
+  background: linear-gradient(155deg, #55c7ed, #2bb3e0, #3bc1ed);
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 69vh;
 }
 
-/* blinking cursor */
+.search {
+  margin: 20px;
+}
+
+.search > h3 {
+  font-weight: normal;
+}
+
+.search > h1,
+.search > h3 {
+  color: white;
+  margin-bottom: 15px;
+  text-shadow: 0 1px #0091c2;
+}
+
+.search > div {
+  display: inline-block;
+  position: relative;
+  filter: drop-shadow(0 1px #0091c2);
+}
+
+.search > div:after {
+  content: "";
+  background: white;
+  width: 4px;
+  height: 20px;
+  position: absolute;
+  top: 40px;
+  right: 2px;
+  transform: rotate(135deg);
+}
+
+.search > div > input {
+  color: white;
+  font-size: 16px;
+  background: transparent;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  border: solid 3px white;
+  outline: none;
+  border-radius: 35px;
+  transition: width 0.5s;
+}
+
+.search > div > input::placeholder {
+  color: #efefef;
+  opacity: 0;
+  transition: opacity 150ms ease-out;
+}
+
+.search > div > input:focus::placeholder {
+  opacity: 1;
+}
+
+.search > div > input:focus,
+.search > div > input:not(:placeholder-shown) {
+  width: 250px;
+}
+
 #cursor {
   background: lime;
   line-height: 12px;
