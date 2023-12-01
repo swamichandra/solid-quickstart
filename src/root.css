@@ -21,9 +21,11 @@ html, body {
   align-items: center;
 }
 
-h3 {
-  font-size: small;
+p {
+  font-size: 9px;
+  color: white;
 }
+
 .search {
   margin: 20px;
 }
