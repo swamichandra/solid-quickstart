@@ -13,7 +13,7 @@ html, body {
 }
 
 .flexbox {
-  background: linear-gradient(155deg, #55c7ed, #2bb3e0, #3bc1ed);
+  
   width: 100%;
   height: 100%;
   display: flex;
