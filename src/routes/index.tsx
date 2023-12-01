@@ -19,9 +19,8 @@ export default function Home() {
         <div>
           <input type="text" id="searchWidgetTrigger" placeholder="Discover . . ."  />
         </div>
-        <div id="facet_results"></div>
-        <div id="search_results"></div>
       </div>
+      <div id="facet_results"></div>
     </div>
    </div>
 </div>
