@@ -12,8 +12,8 @@ export default function Home() {
 
     <div class="flexbox">
       <div class="search">
-        <h1>Discover Client Insights</h1>
-        <h3>Click on search icon, then type what you would want to know about a client.</h3><span class="blinking-cursor">|</span>
+        <h1>Discover Client Insights<span class="blinking-cursor">|</span></h1>
+        <h3>Click on search icon, then type what you would want to know about a client.</h3>
         <div>
           <input type="text" id="searchWidgetTrigger" placeholder="Discover . . ."  />
         </div>
