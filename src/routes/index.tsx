@@ -7,7 +7,6 @@ export default function Home() {
 
       <gen-search-widget
             configId="23df4038-8851-4b5e-84ef-86eae2f5ecc4"
-            location="us"
             triggerId="searchWidgetTrigger">
       </gen-search-widget>
 
