@@ -6,7 +6,8 @@ export default function Home() {
       <Title>Discover Client Insights</Title>
 
       <gen-search-widget
-            configId="23df4038-8851-4b5e-84ef-86eae2f5ecc4"
+            configId="f93d75f5-4d53-439c-9194-f075086d3eb9"
+            location="us"
             triggerId="searchWidgetTrigger">
       </gen-search-widget>
 
