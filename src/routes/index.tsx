@@ -5,9 +5,11 @@ export default function Home() {
     <main>
       <Title>Discover Client Insights</Title>
 
+      <!-- Search widget element is not visible by default -->
       <gen-search-widget
-            configId="f93d75f5-4d53-439c-9194-f075086d3eb9"
-            triggerId="searchWidgetTrigger">
+        configId="f93d75f5-4d53-439c-9194-f075086d3eb9"
+        location="us"
+        triggerId="searchWidgetTrigger">
       </gen-search-widget>
 
 <div class="wrapper">
