@@ -7,7 +7,7 @@ export default function Home() {
 
       <!-- Search widget element is not visible by default -->
       <gen-search-widget
-        configId="f93d75f5-4d53-439c-9194-f075086d3eb9"
+        configId="953f1bb0-e5ce-4793-9cdf-f175818c25be"
         location="us"
         triggerId="searchWidgetTrigger">
       </gen-search-widget>
